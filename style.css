@@ -42,6 +42,7 @@ Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
 */
 
+/* ----- MOBILE FIRST ----- */
 @font-face {
 	font-family: Raleway;
 	src: url(fonts/Raleway-VariableFont_wght.ttf);
@@ -69,11 +70,6 @@ h2{
 	font-size: 18px;
 }
 
-.nadpis h1{
-	display: block;
-	align-items: flex-end;
-}
-
 p{
 	font-size: 14px;
 	font-weight: 400;
@@ -82,10 +78,16 @@ p{
 .hlavni{
 	background-image: url(images/salat.jpg);
 	min-height: 200px;
+	display: grid;
+}
+.nadpis{
+	display: flex;
+	align-items: flex-end;
 }
 
 .recept{
 	min-height: 90px;
+	display: grid;
 }
 
 .jedna{
@@ -111,4 +113,52 @@ p{
 	padding: 10px;
 	font-size: 14px;
 	font-weight: 400;
+}
+
+/* ----- TABLET ----- */
+@media screen and (min-width: 480px){
+	h1,h2,.koment{
+	padding: 20px;
+	}
+	.hlavni{
+	min-height: 250px;
+	}
+	.recept{
+	min-height: 150px;
+	}
+	h1{
+	font-size: 36px;
+	}
+	h2{
+	font-size: 22px;
+	}
+	.recepty{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+	.recept{
+	flex: 0 0 calc((100% - 2px)/ 2);
+	}
+}
+
+/* ----- PC ----- */
+@media screen and (min-width: 860px){
+	.hlavni{
+	min-height: 400px;
+	margin-right: 2px;
+	}
+	.recept{
+	min-height: 200px;
+	}
+	h1{
+	font-size: 48px;
+	}
+	h2{
+	font-size: 28px;
+	}
+	.kontejner{
+	display: flex;
+	flex-wrap: nowrap;
+	}
 }
