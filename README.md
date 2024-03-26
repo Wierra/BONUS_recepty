@@ -1,5 +1,4 @@
 # Recepty
-
 Bonusový úkol pro kurz Staň se kóderkou od Czechitas. Tento úkol se neodevzdává a nehodnotí. Vypracuj si ho pro sebe jako trénink kódování CSS. Toto je standardní varianta úkolu, více se dozvíš v sekci Obtížnosti úkolu.
 
 - [Cíl úkolu](#Cíl-úkolu)
@@ -13,9 +12,7 @@ Tvým úkolem je nahódovat responzivní sekci webu - můžeš si představit, �
 
 ![Ukázka výsledku](ukazka-vysledku-responsive.gif)
 
-
 ## Cíl úkolu
-
 Cílem projektu je procvičit si použití různých technik:
 - **Responzivní webdesign**
   - stránka se musí přizpůsobovat různým šířkám prohlížeče
@@ -33,9 +30,7 @@ Cílem projektu je procvičit si použití různých technik:
   - obrázky jídel přidej pro každý recept jako obrázek na pozadí (tj. ne jako značku `<img>` v HTML)
   - vzpomeň si na vlastnost `background-size: cover;`, která zajistí, že obrázek vždy pokryje celou kartičku, ať má jakoukoliv velikost
 
-
 ## Grafické zadání
-
 Jak vypadá rozložení receptů pro mobil, tablet a počítač najdeš na obrázku *zadani-ukolu.jpg*. Najdeš tam i minimální výšky kartiček pro každý breakpoint, použité písmo a jeho velikosti.
 
 Ve složce projektu jsou přidané obrázky s náhledem webu pro každý breakpoint:
@@ -47,9 +42,7 @@ Kde jsou jednotlivé breakpointy najdeš i v komentáři v souboru *style.css*.
 
 ![zadání úkolu](zadani-ukolu.jpg)
 
-
 ## Obtížnosti úkolu
-
 Zadání tohoto projektu je vytvořeno ve dvou úrovních obtížnosti. Tento repozitář obsahuje výchozí **standardní úroveň obtížnosti**. Pokud máš méně času nebo s úkolem hodně bojuješ, můžeš zkusit lehčí variantu úkolu.
 
 ### Standardní obtížnost
@@ -65,11 +58,7 @@ Zadání tohoto projektu je vytvořeno ve dvou úrovních obtížnosti. Tento re
 
 Je úplně v pořádku, pokud si nakonec zvolíš jednodušší variantu (např. kvůli nedostatku času), ale doporučuji, abys nejprve zkusila standardní obtížnost, kde si musíš sama vytvořit i HTML strukturu a pojmenovat CSS třídy. Není to zase o tolik těžší a v reálném životě ti také nikdo HTML připravovat nebude. Jako kóderka dostaneš grafický návrh a ten budeš muset převést do HTML a CSS. Budeš-li si u bonusových úkolů volit jednodušší obtížnosti, nakonec zjistíš, že sice umíš CSS, ale dělá ti problém vymyslet a napsat si vlastní HTML.
 
-
 ## Jak si stáhnout podklady
-
 1. Udělej si **fork** této repozitáře - tím se ti úkol zkopíruje do tvého GitHub profilu.
 2. Forknutou repozitář si naklonuj k sobě na disk.
-
 Pokud nevíš, co je to **fork repozitáře** a jak ho provést, podívej se na [krátké video](https://youtu.be/K7rE3jRCjD4).
-
