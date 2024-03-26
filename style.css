@@ -60,6 +60,7 @@ h1,h2{
 	font-family: 'Raleway', sans-serif;
 	padding: 10px;
 	font-weight: 800;
+	/* background-color: rgba(137, 136, 136, 0.4) ; */
 }
 
 h1{
@@ -125,6 +126,7 @@ p{
 	}
 	.recept{
 	min-height: 150px;
+	flex: 1 1 calc((100% - 2px)/ 2);
 	}
 	h1{
 	font-size: 36px;
@@ -137,8 +139,9 @@ p{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	}
-	.recept{
-	flex: 0 0 calc((100% - 2px)/ 2);
+	.jedna,
+	.tri{
+	margin-right: 2px;
 	}
 }
 
@@ -148,8 +151,13 @@ p{
 	min-height: 400px;
 	margin-right: 2px;
 	}
-	.recept{
+	.recepty{
 	min-height: 200px;
+	flex: 1 1 calc((100% - 2px) /2);
+	}
+	.jedna,
+	.tri{
+	margin-right: 2px;
 	}
 	h1{
 	font-size: 48px;
@@ -160,5 +168,6 @@ p{
 	.kontejner{
 	display: flex;
 	flex-wrap: nowrap;
-	}
+	/* flex: 1 1 100%; */
+}
 }
